@@ -124,7 +124,7 @@ void setup()
 }
 
 // Scrolling Text
-char string[] = " GG EZ Hena ";  
+char string[] = " Tervetuloa ";  
 
 void loop()
 {      
