@@ -16,11 +16,12 @@ sevseg.setBrightness(90);
 
 }
 
+long int number = 0;
+
 void loop() {
 
-sevseg.setNumber(1234, 2);
+sevseg.setNumber(number / 1000);
 sevseg.refreshDisplay(); // Must run repeatedly
-
-
+++number;
 
 }
