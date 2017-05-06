@@ -6,7 +6,7 @@ void setup() {
 
 byte numDigits = 4;
 
-byte digitPins[] = {2, 3, 4, 5};
+byte digitPins[] = {1, 3, 4, 5};
 
 byte segmentPins[] = {6, 7, 8, 9, 10, 11, 12, 13};
 
@@ -16,12 +16,12 @@ sevseg.setBrightness(90);
 
 }
 
-long int number = 0;
+long int number = 1230;
 
 void loop() {
 
-sevseg.setNumber(number / 1000);
+sevseg.setNumber(number,3);
 sevseg.refreshDisplay(); // Must run repeatedly
-++number;
+
 
 }
