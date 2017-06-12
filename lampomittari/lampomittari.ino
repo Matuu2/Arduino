@@ -5,7 +5,7 @@
 
 SevSeg sevseg; //Initiate a seven segment controller object
 
-#define DHTTYPE DHT11   // DHT 11
+#define DHTTYPE DHT22  // DHT 11 (DHT 22 is that better sensor)
 DHT dht(DHTPIN, DHTTYPE);
 
 long int number = 1337;
